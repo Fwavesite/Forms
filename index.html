@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dropdown with Out-of-Stock Options</title>
+</head>
+<body>
+    <div class="dropdown-container">
+        <label for="item-selection">Selecciona un ítem:</label>
+        <select id="item-selection" class="dropdown">
+            <option value="item1">Opción 1</option>
+            <option value="item2" class="out-of-stock" disabled>Opción 2 (Agotado)</option>
+            <option value="item3">Opción 3</option>
+            <option value="item4" class="out-of-stock" disabled>Opción 4 (Agotado)</option>
+        </select>
+    </div>
+</body>
+</html>
